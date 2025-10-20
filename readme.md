@@ -30,7 +30,7 @@ Programação imperativa é feita de forma passo a passo para construir o códig
 
 ## Conceitos básicos do React
 - Componentes
-- Rotas
+- Props
 - State (Estado)
 
 ## Componentes
