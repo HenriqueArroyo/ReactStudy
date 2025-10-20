@@ -44,3 +44,11 @@ const root = ReactDOM.createRoot(app);
 root.render(<Header />);
 ```
 
+## State e Hooks
+React tem um conjunto de funções chamadas Hooks, que permitem adicionar uma lógica adicional, como o state aos componentes.
+```jsx 
+function HomePage() {
+  // [nome, update] = React.useState(valorInicial)
+  const [likes, setLikes] = React.useState(0);
+}
+```
