@@ -27,3 +27,20 @@ Programação imperativa é feita de forma passo a passo para construir o códig
 
 ## O que é JSX?
 É uma extensão de sintaxe para JavaScript, permite descrever a interface de forma semelhante ao HTML.# ReactStudy
+
+## Conceitos básicos do React
+- Componentes
+- Rotas
+- State (Estado)
+
+## Componentes
+Começam com letra maíuscula e são chamados como tags HTML, exemplo:
+```js
+function Header() {
+  return <h1>Develop. Preview. Ship.</h1>;
+}
+ 
+const root = ReactDOM.createRoot(app);
+root.render(<Header />);
+```
+
